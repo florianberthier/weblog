@@ -1,0 +1,9 @@
+run.config:
+  engine: golang
+  engine.config:
+    runtime: go-1.9
+    package: github.com/weblog
+data.db:
+  image: nanobox/postgresql:9.5
+web.main:
+  start: weblog

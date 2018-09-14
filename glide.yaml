@@ -1,0 +1,3 @@
+package: github.com/weblog
+import:
+- package: github.com/gin-gonic/gin
